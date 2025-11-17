@@ -1,2 +1,2 @@
 #!/bin/sh
-podman-compose exec -it qmk_compiler python3 update_kb_redis.py
+podman-compose exec qmk_compiler python3 update_kb_redis.py
