@@ -86,7 +86,7 @@ services:
     ports:
       - "5000:80"
     environment:
-      QMK_API_URL: https://qmk-api.ntkstudio.net
+      QMK_API_URL: http://qmk-api.ntkstudio.net
     # To use this you need to have built it locally, IE qmk_configurator/dist needs to exist.
     #volumes:
     #  - ./qmk_configurator:/qmk_configurator
